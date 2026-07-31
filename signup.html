@@ -32,7 +32,23 @@
         </nav>
     </header>
     <main>
-       main content
+       <section id="signup">
+        <form id="signup-form">
+            <h2>Lets Get You Signed Up!</h2>
+            <input type="text" id="first-name" name="first-name" placeholder="First Name" required><br>
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+            <div id="running-preference">
+                <label for="road">Road</label>
+                <input type="radio" id="road">
+                <label for="trail">Trail</label>
+                <input type="radio" id="trail">
+                <label for="both">Both</label>
+                <input type="radio" id="both">
+            </div>
+            <button type="submit">Let's Run!</button>
+        </form>
+       </section>
     </main>
     <footer>
         <ul id="social-networks">
