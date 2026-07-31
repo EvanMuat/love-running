@@ -13,5 +13,5 @@ nav{position:absolute; background-color: inherit; width:100%; box-shadow:0 2px 2
 #nav-toggle:checked~ nav{display:block}
 #nav-toggle{display:none; }
 #nav-toggle-label{font-size:2rem; }
-main{background-color:rgb(236, 145, 145); flex: 1 0 auto}
+main{background-color:rgb(236, 145, 145); flex: 1 0 auto; margin-top: 47px}
 footer{background-color:rgb(182, 243, 182) ; }
