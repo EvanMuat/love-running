@@ -47,6 +47,10 @@ div{margin: 20px 0}
 #social-networks a{text-decoration:none; font-size:160%; padding: 5%; color:#3a3a3a}
 
 
+@media screen and (min-width: 576px) {
+    #photos{column-count:2; column-gap:0}
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -106,6 +110,9 @@ div{margin: 20px 0}
         text-align: end;
         align-self: flex-end;
     }
+    #photos {
+        column-count: 3; column-gap: 0;
+    }
 
 }
 
@@ -113,6 +120,9 @@ div{margin: 20px 0}
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+    #photos {
+        column-count: 4; column-gap: 0;
     }
 }
 
